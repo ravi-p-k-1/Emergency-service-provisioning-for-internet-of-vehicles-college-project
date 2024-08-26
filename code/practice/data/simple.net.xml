@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-09-18 16:40:15 by Eclipse SUMO netedit Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/neteditConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="E:\simple.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="E:\simple.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+    <netedit>
+        <new-network value="false"/>
+    </netedit>
+
+</configuration>
+-->
+
+<net version="1.16" junctionCornerDetail="5" limitTurnSpeed="5.50" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/net_file.xsd">
+
+    <location netOffset="0.00,0.00" convBoundary="2843.95,407.84,4018.86,409.33" origBoundary="10000000000.00,10000000000.00,-10000000000.00,-10000000000.00" projParameter="!"/>
+
+    <edge id="E4" from="J8" to="J9" priority="-1">
+        <lane id="E4_0" index="0" speed="13.89" length="1174.91" shape="2843.97,393.44 4018.88,394.93"/>
+        <lane id="E4_1" index="1" speed="13.89" length="1174.91" shape="2843.96,396.64 4018.87,398.13"/>
+        <lane id="E4_2" index="2" speed="13.89" length="1174.91" shape="2843.96,399.84 4018.87,401.33"/>
+        <lane id="E4_3" index="3" speed="13.89" length="1174.91" shape="2843.95,403.04 4018.87,404.53"/>
+        <lane id="E4_4" index="4" speed="13.89" length="1174.91" shape="2843.95,406.24 4018.86,407.73"/>
+    </edge>
+
+    <junction id="J8" type="dead_end" x="2843.95" y="407.84" incLanes="" intLanes="" shape="2843.95,407.84 2843.97,391.84"/>
+    <junction id="J9" type="dead_end" x="4018.86" y="409.33" incLanes="E4_0 E4_1 E4_2 E4_3 E4_4" intLanes="" shape="4018.88,393.33 4018.86,409.33"/>
+
+</net>

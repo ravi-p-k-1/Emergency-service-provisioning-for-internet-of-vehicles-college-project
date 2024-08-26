@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-12-23 12:20:22 by Eclipse SUMO GUI Version 1.14.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\ravip\OneDrive\Documents\SEM-7\MP\susang\final\final.net.xml"/>
+        <route-files value="C:\Users\ravip\OneDrive\Documents\SEM-7\MP\susang\final\trips.trips.xml"/>
+        <additional-files value="C:\Users\ravip\OneDrive\Documents\SEM-7\MP\susang\final\addon.add.xml"/>
+    </input>
+
+    <output>
+        <tripinfo-output value="tripinfo.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="10000"/>
+    </time>
+
+    <traci_server>
+        <remote-port value="65325"/>
+    </traci_server>
+
+</configuration>
+-->
+
+<detector xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/det_e1_file.xsd">
+    <interval begin="0.00" end="300.00" id="e1_57" nVehContrib="18" flow="216.00" occupancy="3.56" speed="8.42" harmonicMeanSpeed="8.42" length="5.00" nVehEntered="18"/>
+    <interval begin="300.00" end="360.00" id="e1_57" nVehContrib="10" flow="600.00" occupancy="9.89" speed="8.43" harmonicMeanSpeed="8.43" length="5.00" nVehEntered="10"/>
+</detector>
